@@ -1,9 +1,9 @@
 {
-	"name": "optimizedhtml",
-	"version": "5.0.0",
-	"description": "OptimizedHTML 5 - Lightweight Gulp Starter",
+	"name": "Kolpaki",
+	"version": "",
+	"description": "",
 	"main": "index.js",
-	"author": "WebDesign Master",
+	"author": "Sergey Rybin",
 	"type": "module",
 	"browserslist": [ "last 10 versions" ],
 	"license": "ISC",

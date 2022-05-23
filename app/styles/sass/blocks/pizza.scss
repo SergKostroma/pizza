@@ -44,7 +44,9 @@
         font-size:22px;
     }  
 }
-
+.swiper{
+    padding-bottom:50px;
+}
 .slider{
     margin-top:30px;
     margin-bottom:38px;
@@ -52,7 +54,7 @@
     &__slide{
         overflow: hidden;
         width:100%;
-        max-width:1099px;
+        max-width:90%;
     }
     &__image img{
         width:100%;
@@ -103,7 +105,8 @@
     &__product-specification{
         font-weight: 400;
         font-size:15px;
-        color:#979797
+        color:#979797;
+        max-width:270px;
     }
     &__purchase-button{
         color:#EB5C05;
@@ -126,7 +129,7 @@
         display:flex;
         flex-direction: column;
         justify-content: space-between;
-        min-height:255px;
+        min-height:228px;
         flex:1;
     }
     
@@ -139,6 +142,7 @@
     align-self: center;
 }
 .pop-up{
+    position:relative;
     background-color: #F7F3F3;
     padding-top:435px;
     padding-left:30px;
@@ -168,6 +172,9 @@
         margin-top:28px;
         cursor:pointer;
         font-size:15px;
+    }
+    &__content{
+        position:sticky;
     }
 }
 .phone{
@@ -200,6 +207,10 @@
          font-size:20px;
          line-height:20px;
      }
+     &__text-content{
+         margin-left:15px;
+         margin-top:15px;
+     }
 
  }
  .pop-up{
@@ -227,12 +238,21 @@
             max-width:192px;
             margin:0 auto;
         }
+        &__items{
+           flex-direction:column;
+           align-items: center;
+        }
     }
     .card{
         width:100%;
         max-width:328px;
         margin:35px auto;
     }
+    .slider{
+        margin-top:10px;
+        margin-bottom:15px;
+    }
+       
     .content{
         margin-left:20px;
     }

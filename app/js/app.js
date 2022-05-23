@@ -9,16 +9,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const swiper = new Swiper('.swiper', {
 
-	slidesPerView: 1.1,
+	slidesPerView:1.1,
 
 	pagination: {
 		el: '.swiper-pagination',
 		type: 'bullets',
+		clickable:true,
 	  },
-
 	  spaceBetween:10,
-	
-
-
 	loop: true,
 });
