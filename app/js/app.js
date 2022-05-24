@@ -3,22 +3,20 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-	
+	const swiper = new Swiper('.swiper', {
+        slidesPerView:1.1,
+        spaceBetween:10,
+		pagination: {
+			el: '.swiper-pagination',
+			type: 'bullets',
+			clickable:true,
+		  },
+		loop: true,
+		autoplay:{
+			delay:3000,
+		}
+	});
 
 })
 
-const swiper = new Swiper('.swiper', {
 
-	slidesPerView:auto,
-
-	pagination: {
-		el: '.swiper-pagination',
-		type: 'bullets',
-		clickable:true,
-	  },
-	  spaceBetween:10,
-	loop: true,
-	autoplay:{
-		delay:3000,
-	}
-});
