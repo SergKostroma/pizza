@@ -4,7 +4,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
 	const swiper = new Swiper('.swiper', {
-        slidesPerView:1.1,
+        slidesPerView:'auto',
         spaceBetween:10,
 		pagination: {
 			el: '.swiper-pagination',
