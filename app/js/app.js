@@ -3,13 +3,13 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-	// Custom JS
+	
 
 })
 
 const swiper = new Swiper('.swiper', {
 
-	slidesPerView:1.1,
+	slidesPerView:auto,
 
 	pagination: {
 		el: '.swiper-pagination',
@@ -18,4 +18,7 @@ const swiper = new Swiper('.swiper', {
 	  },
 	  spaceBetween:10,
 	loop: true,
+	autoplay:{
+		delay:3000,
+	}
 });
